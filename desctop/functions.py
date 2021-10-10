@@ -1,11 +1,13 @@
 import requests
-
+from config import *
 def update_app():
-    url="http://193.122.78.15/api/ver1/events/all"
-    headers ={'Authorization': 'Token b7e62e054daaab8c4cefb93027989bbd9a762261'}
+    url=URL_HUB
+    headers ={'Authorization': 'Token '+URL_TOKEN}
     response = requests.get(url, headers=headers)
     return response.json()
     
 
-
-
+def get_info_server():
+    url=URL_SERVER
+    response = requests.get(url)
+    return response.json()
