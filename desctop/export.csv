@@ -1,0 +1,5 @@
+id;name;surname;uuid;plate_number;group;date;direction;status;type_passage;photo;sync
+1;John;Wick;378754677;AA1357KA;Виробництво;2021-10-04T20:58:03+03:00;Парковка;0;0;;True
+2;Spider;Man;5677556;-;-;2021-10-04T22:00:55+03:00;-;2;1;;True
+3;Bruce;Wayne;378865;CA5774BA;Hero;2021-10-04T22:01:52+03:00;Парковка;1;1;;True
+4;Tony;Stark;976654;AK4785OP;Hero;2021-10-04T22:02:36+03:00;Парковка;3;0;;True
