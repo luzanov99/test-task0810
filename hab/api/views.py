@@ -4,6 +4,7 @@ from rest_framework import serializers
 from rest_framework.viewsets import ModelViewSet
 from .models import DataUser
 from .serializers import UserSerialiser
+
 # Create your views here.
 class UserViewSet(ModelViewSet):
     queryset=DataUser.objects.all()
@@ -14,3 +15,5 @@ def add_user(request):
     user=DataUser(username="user1", email="admin@gmail.com")
     user.save()
     return HttpResponse("OKs")
+
+
